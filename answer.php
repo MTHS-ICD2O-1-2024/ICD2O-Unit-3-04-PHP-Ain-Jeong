@@ -29,25 +29,22 @@
       <div class="right-image">
         <img src="./images/volume-of-sphere.png" alt="Volume of Sphere image" width="500" />
       </div>
-      <br />
-      <div class="page-content-heading">Formula</div>
-      <div class="page-content-formula">°C = (°F - 32) * (5 / 9)</div>
-      <div class="page-content-guide">Please enter integers for Fahrenheit:</div>
       <div class="page-content-php">
-        <form action="answer.php" method="GET">
-          <label class="page-content">Fahrenheit: </label>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="temperature-in-fahrenheit" />
-            <label class="mdl-textfield__label" for="temperature-in-fahrenheit">temperature in fahrenheit (°F)</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Convert
-          </button>
-        </form>
+        <div id="answer">
+          <?php
+          // input
+          $temperatureInFahrenheit = $_GET["temperature-in-fahrenheit"];
+
+          // process
+          $temperatureInCelsius = ($temperatureInFahrenheit - 32) * (5 / 9);
+
+          // output
+          echo $temperatureInFahrenheit . "°F = " . round($temperatureInCelsius, 3) . "°C";
+          ?>
+        </div>
+      </div>
+      <div class="page-content-return">
+        <a href="./index.php">Return ...</a>
       </div>
     </main>
   </div>
