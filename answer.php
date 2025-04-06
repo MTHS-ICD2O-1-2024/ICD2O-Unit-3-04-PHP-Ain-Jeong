@@ -29,7 +29,7 @@
       <div class="right-image">
         <img src="./images/thermometer-icon.png" alt="Thermometer image" width="500" />
       </div>
-      <div class="page-content-php">
+      <div class="page-content-answer">
         <div id="answer">
           <?php
           // input

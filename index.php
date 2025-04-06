@@ -37,7 +37,7 @@
         <form action="answer.php" method="GET">
           <label class="page-content">Fahrenheit: </label>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="temperature-in-fahrenheit" />
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="temperature-in-fahrenheit" />
             <label class="mdl-textfield__label" for="temperature-in-fahrenheit">temperature in fahrenheit (°F)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
