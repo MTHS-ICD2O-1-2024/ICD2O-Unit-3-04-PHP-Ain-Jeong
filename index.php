@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume-of-sphere.png" alt="Volume of Sphere image" width="500" />
+        <img src="./images/thermometer-icon.png" alt="Thermometer image" width="500" />
       </div>
       <br />
       <div class="page-content-heading">Formula</div>
@@ -41,6 +41,7 @@
             <label class="mdl-textfield__label" for="temperature-in-fahrenheit">temperature in fahrenheit (°F)</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
+          <label class="page-content">°F </label>
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"

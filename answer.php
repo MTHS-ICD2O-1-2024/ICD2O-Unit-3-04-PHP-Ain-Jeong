@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/volume-of-sphere.png" alt="Volume of Sphere image" width="500" />
+        <img src="./images/thermometer-icon.png" alt="Thermometer image" width="500" />
       </div>
       <div class="page-content-php">
         <div id="answer">
