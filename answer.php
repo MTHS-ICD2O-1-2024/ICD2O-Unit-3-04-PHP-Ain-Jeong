@@ -39,7 +39,7 @@
           $temperatureInCelsius = ($temperatureInFahrenheit - 32) * (5 / 9);
 
           // output
-          echo $temperatureInFahrenheit . "°F = " . round($temperatureInCelsius, 3) . "°C";
+          echo $temperatureInFahrenheit . "°F is equivalent to " . round($temperatureInCelsius, 3) . "°C";
           ?>
         </div>
       </div>
