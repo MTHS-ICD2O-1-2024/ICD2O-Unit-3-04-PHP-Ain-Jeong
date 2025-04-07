@@ -34,7 +34,7 @@
       <div class="page-content-formula">°C = (°F - 32) * (5 / 9)</div>
       <div class="page-content-guide">Please enter integers for Fahrenheit:</div>
       <div class="page-content-php">
-        <form action="answer.php" method="GET">
+        <form action="./answer.php" method="GET">
           <label class="page-content">Fahrenheit: </label>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="temperature-in-fahrenheit" />
